@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Chrome, Safari, IE -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- Firefox, Opera  -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <title>[광신방송예술고등학교] - 학생작품 갤러리</title>
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+  <!-- materialize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <style media="screen">
+    body {
+      background: #ECEFF1;
+      color: rgba(0, 0, 0, 0.87);
+      font-family: "Recipekorea", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-image: url(/img/title.jpg);
+      background-color: white;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 100px;
+      width: 100%;
+      border-bottom: 2px solid #000B85;
+    }
+
+    .highlight {
+      padding: 25px 0px;
+    }
+
+    .highlight>div {
+      text-align: center;
+    }
+
+    .highlight>.title>h4 {
+      font-weight: bold;
+    }
+
+    .page-footer>.footer-copyright>.container {
+      font-family: Arial, sans-serif;
+    }
+
+    .page-footer>.footer-copyright>.container>a {
+      background-color: #ECEFF1;
+      width: 100%;
+      display: block;
+      padding-top: 5px;
+      margin: 0px 0px 10px 0px;
+    }
+
+
+    @media (max-width: 600px) {
+
+      body,
+      #message {
+        margin-top: 0;
+        background: white;
+        box-shadow: none;
+      }
+
+      body {
+        border-top: 16px solid #ffa100;
+      }
+
+      .title>h4 {
+        font-size: 2.10rem;
+      }
+    }
+
+    @font-face {
+      font-family: 'Recipekorea';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header"></header>
+
+  <section class="container">
+    <div class="highlight">
+      <div class="title">
+        <h4>2020 사진반 가족사진전</h4>
+      </div>
+      <div class="title-tip">
+        <p>* 일회용 필름사진기로 진행 되었습니다.</p>
+      </div>
+    </div>
+
+    <article class="content">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1307 최진솔 - 베리.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1307 최진솔 - 베리와 나.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1324 박다희 - 언니와 나.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1402 박서현 - 가족과 바라본 하늘1.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1402 박서현 - 가족과 바라본 하늘2.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1402 박서현 - 노란 꽃다발.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1403 박정은 - 나무, 언니.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1403 박정은 - 언니와 함께.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1405 이연정 - 나무.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1410 나준혁 - Dad and Grandma.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1410 나준혁 - 마중.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1410 나준혁 - 사랑이.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1412 윤찬현 - 누가 살까요.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1412 윤찬현 - 산책길.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1414 이용준 - 귀찮다냥.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1414 이용준 - 내 가족 스핑크스.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1420 최지원 - 가을을 보내요.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1420 최지원 - 기다림.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1420 최지원 - 부끄러움이 많은 가족.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1422 황진영 - 산책1.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/1422 황진영 - 산책2.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/2304 이태영 - 눈이 부시게.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/2304 이태영 - 태영이와 친구들1.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/2304 이태영 - 태영이와 친구들2.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/2304 이태영 - 학교.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/2306 김시영 - 제일 사랑하는 가족은 나자신.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/2306 김시영 - 친구들.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/2313 윤기범 - 광신가족 광순1.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/2313 윤기범 - 광신가족 광순2.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/2313 윤기범 - 포즈만은 가족사진.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/2410 송영운 - 숲속을 걸어요.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/2410 송영운 - 아잉 부끄뎡.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/가족의 모습.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/바다를 드려요.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card small">
+            <div class="card-image">
+              <img class="materialboxed" src="img/gallery/초록.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-subject"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <footer class="page-footer orange">
+    <div class="footer-copyright">
+      <div class="container">
+        <a class="orange-text text-lighten-3" href="http://ksmedia.sen.hs.kr/index.do">
+          <img src="img/footer-image.png" alt="footer-image">
+        </a>
+        <div>[08847]서울 관악구 광신길 141 (신림동, 서울광신방송예술고등학교)</div>
+        <div>대표전화) 교무실 02-881-8612 행정실 02-881-8510</div>
+        <div>팩스) 교무실 02-881-8637 행정실 02-887-3075</div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/html">
+    <div class="col s12 m4">
+      <div class="card small">
+        <div class="card-image">
+          <img class="materialboxed" src="img/sample-1.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-subject">2403 김시영</span>
+          <p>제목 : 제목입니다.</p>
+        </div>
+      </div>
+    </div>
+  </script>
+
+  
+  <!-- update the version number as needed -->
+  <script defer src="/__/firebase/8.2.4/firebase-app.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script defer src="/__/firebase/8.2.4/firebase-analytics.js"></script>
+  <script defer src="/__/firebase/8.2.4/firebase-storage.js"></script>
+  <script defer src="/__/firebase/8.2.4/firebase-auth.js"></script>
+  <!-- <script defer src="/__/firebase/8.2.4/firebase-database.js"></script> -->
+  <!-- <script defer src="/__/firebase/8.2.4/firebase-firestore.js"></script> -->
+  <!-- <script defer src="/__/firebase/8.2.4/firebase-functions.js"></script> -->
+  <!-- <script defer src="/__/firebase/8.2.4/firebase-messaging.js"></script> -->
+  <!-- <script defer src="/__/firebase/8.2.4/firebase-remote-config.js"></script> -->
+  <!-- <script defer src="/__/firebase/8.2.4/firebase-performance.js"></script> -->
+  <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+  <script>
+    $(document).ready(function () {
+      materialInit();
+      getCredit();
+
+      $()
+      $(".card").each(function(i, e){
+        var srcSplit = $(e).find(".materialboxed").attr("src").split("/");
+        var title = srcSplit[srcSplit.length - 1]
+        title = title.replace(".JPG", "").replace(".jpg", "")
+        $(e).find(".card-subject").text(title);
+      });
+    });
+
+    function materialInit() {
+      $('.materialboxed').materialbox();
+    }
+
+    function getCredit() {
+      console.log("made by wooncloud - 'https://wooncloud.tistory.com/'");
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      firebase.analytics(); // call to activate
+      firebase.analytics().logEvent('tutorial_completed');
+      try {
+        let app = firebase.app();
+        let features = ['analytics'].filter(feature => typeof app[feature] === 'function');
+
+        console.log(`Firebase SDK loaded with ${features.join(', ')}`);
+      } catch (e) {
+        console.error(e);
+      }
+    });
+  </script>
+</body>
+
+</html>
